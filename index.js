@@ -12,7 +12,7 @@ const eventRouter = require('./routes/events');
 
 const app = express();
 
-// view engine setup.
+// view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
